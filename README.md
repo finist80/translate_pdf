@@ -31,11 +31,14 @@ TODO: template repo with folder structure set up (inputs, outputs, src code, yml
 ![alt text](delete/6_howtoopen.png)
 
 7. Set up environment:
+- open environment file and edit as needed, at the very least change the name of the environment.
 - Open Anaconda Prompt from ‘Start’ -> ‘Anaconda3 (64 bit)’ -> ‘Anaconda Prompt’, enter “conda init”.
 - enter the following after inputting the correct <'file_path'> you selected in step 5:	
 	conda env create -f C:<'file_path'>\environment.yml
 
-![alt text](delete/6_howtoopen.png)
+![alt text](delete/create_env.png)
+
+- once done type conda activate <' the environment name you selected'>
 
 8. Set up jupyter notebook: kernel & imports
 
