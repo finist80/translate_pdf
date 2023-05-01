@@ -4,6 +4,8 @@ TODO: template repo with folder structure set up (inputs, outputs, src code, yml
 # Prerequisites
 1.	Ensure you have Miniconda: https://repo.anaconda.com/miniconda/Miniconda3-py39_4.11.0-Windows-x86_64.exe
 2.  Ensure you have vscode: https://code.visualstudio.com/download
+- you may need to install the Jupiter extension in VS code
+- If it says you don’t have it set up – you will need to download git from (https://git-scm.com/) and follow the instructions. I just did all the defaults:Git (git-scm.com)
 
 # Set up repo:
 1. Next to the the name of the repo, 'template', click the more options then "fork":
@@ -36,8 +38,9 @@ Here is link for the Anaconda environment file on sharepoint: sfile_wrts.yml. We
 From the Command Prompt you type or paste the command seen below after replacing “C:\path\to\sfile_wrts.yml” with the path to the .yml file on your machine:
 •	conda env create -f C:\path\to\sfile_wrts.yml
 
+8. Set up jupyter notebook: kernel & imports
 
-8.  Make changes, stage, commit & sync
+9.  Make changes, stage, commit & sync
 
 # Contribute
 TODO: feel free to contribute to make this better, but please don't overwrite the template!
