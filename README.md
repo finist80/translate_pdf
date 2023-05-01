@@ -8,9 +8,12 @@ TODO: template repo with folder structure set up (inputs, outputs, src code, yml
 - If it says you don’t have it set up – you will need to download git from (https://git-scm.com/) and follow the instructions. I just did all the defaults:Git (git-scm.com)
 
 # Set up repo:
+
+<img src="delete/clone.png" width="100%" />
+
 1. Next to the the name of the repo, 'template', click the more options then "fork":
 
-  ![alt text](delete/clone.png)
+  ![alt text](delete/clone.png) {:height="20%" width="50%"}
   
 2. Enter name & continue
 
