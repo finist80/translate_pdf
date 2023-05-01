@@ -1,0 +1,13 @@
+name: <NAME>
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pandas
+  - scipy
+  - pip:
+    - sqlalchemy
