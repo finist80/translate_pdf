@@ -9,34 +9,33 @@ TODO: template repo with folder structure set up (inputs, outputs, src code, yml
 
 # Set up repo:
 1. Next to the the name of the repo, 'template', click the more options then "fork":
-![alt text](delete/clone.png)
 
-
+  ![alt text](delete/clone.png)
+  
 2. Enter name & continue
-![alt text](delete/clone.png)
 
-3. Next to the the name of the **new** repo, click the more options then "clone":
+![alt text](delete/2_fork_to.png)
 
-![alt text](delete/clone.png)
-
+3. Next to the the name of the **new** repo, click the more options (see step 1) then "clone".
 
 4. Click 'Clone in VS Code' under 'IDE':
+
 ![alt text](delete/clone_vs.png)
 
-5. Accept any security questions:
+5. Accept any security questions & select folder:
+
+![alt text](delete/5_select_folder.png)
 
 6. Select the right option for you:
 
+![alt text](delete/6_howtoopen.png)
+
 7. Set up environment:
-- 
+- Open Anaconda Prompt from ‘Start’ -> ‘Anaconda3 (64 bit)’ -> ‘Anaconda Prompt’, enter “conda init”.
+- enter the following after inputting the correct <'file_path'> you selected in step 5:	
+	conda env create -f C:<'file_path'>\environment.yml
 
-	Open Anaconda Prompt from ‘Start’ -> ‘Anaconda3 (64 bit)’ -> ‘Anaconda Prompt’, enter “conda init”.
-
-
-After Anaconda is installed, the next step is to create the Anaconda environment which will install all the necessary package dependencies. To do this, you will need to open a Command Prompt window. You can search for Command Prompt from the windows start menu to open the Command Prompt.
-Here is link for the Anaconda environment file on sharepoint: sfile_wrts.yml. We will use this file later so please copy this file to your local location.
-From the Command Prompt you type or paste the command seen below after replacing “C:\path\to\sfile_wrts.yml” with the path to the .yml file on your machine:
-•	conda env create -f C:\path\to\sfile_wrts.yml
+![alt text](delete/6_howtoopen.png)
 
 8. Set up jupyter notebook: kernel & imports
 
