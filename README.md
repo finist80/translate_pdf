@@ -1,19 +1,32 @@
 # Introduction 
-TODO: template repo, create a pull request then save as your own repo
+TODO: template repo with folder structure set up (inputs, outputs, src code, yml environment setup & jupyter notebook)
 
 # Prerequisites
 1.	Ensure you have Miniconda: https://repo.anaconda.com/miniconda/Miniconda3-py39_4.11.0-Windows-x86_64.exe
 2.  Ensure you have vscode: https://code.visualstudio.com/download
 
 # Set up repo:
-1. Next to the the name of the repo, 'template', click the more options then "clone":
+1. Next to the the name of the repo, 'template', click the more options then "fork":
+![alt text](delete/clone.png)
+
+
+2. Enter name & continue
+![alt text](delete/clone.png)
+
+3. Next to the the name of the **new** repo, click the more options then "clone":
 
 ![alt text](delete/clone.png)
 
 
-2. Click 'Clone in VS Code' under 'IDE':
+4. Click 'Clone in VS Code' under 'IDE':
 ![alt text](delete/clone_vs.png)
 
+5. Accept any security questions:
+
+6. Select the right option for you:
+
+7. Set up environment:
+- 
 
 	Open Anaconda Prompt from ‘Start’ -> ‘Anaconda3 (64 bit)’ -> ‘Anaconda Prompt’, enter “conda init”.
 
@@ -23,6 +36,8 @@ Here is link for the Anaconda environment file on sharepoint: sfile_wrts.yml. We
 From the Command Prompt you type or paste the command seen below after replacing “C:\path\to\sfile_wrts.yml” with the path to the .yml file on your machine:
 •	conda env create -f C:\path\to\sfile_wrts.yml
 
+
+8.  Make changes, stage, commit & sync
 
 # Contribute
 TODO: feel free to contribute to make this better, but please don't overwrite the template!
